@@ -1,0 +1,469 @@
+.fondo{
+	background: url(fondop.jpg) #CCC no-repeat ;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	background-position: center center;
+	
+}
+.fondo1{
+background-color: #E5AFFF;
+
+}
+.f1{
+	background: url(a.jpg) #CCC no-repeat ;
+	background-size: cover;
+	background-position: center center;
+	height: 15%;
+	width: 100%;
+	left: -0.1%;
+	position: absolute;
+	
+}
+.boti{
+	position: absolute;
+left: 105%;
+top: 31%;
+ width: 15%;
+ height: 88%;
+ font-family: fuente2;
+ background:url(fp.jpg);
+ font-size: 25px;
+ 
+
+}
+@font-face
+{
+font-family: fuente;
+src: url(fuente2.ttf);
+}
+@font-face
+{
+font-family: fuente1;
+src: url(Vogue.ttf);
+}
+@font-face
+{
+font-family: fuente2;
+src: url(oro3.ttf);
+}
+.l
+{
+	position: absolute;
+	font-family: fuente1;
+	color: black;
+	font-size: 45px;
+	left: 3%;
+	top: 25%;
+
+}
+.lp2
+{
+	position: absolute;
+	font-family: fuente1;
+	color: black;
+	font-size: 45px;
+	left: 13%;
+	top: 25%;
+
+}
+.lp3
+{
+	position: absolute;
+	font-family: fuente1;
+	color: black;
+	font-size: 15px;
+	left: 3%;
+	top: 25%;
+
+}
+
+.l2
+{
+	position: relative;
+	font-family: fuente;
+	color: black;
+	font-size: 40px;
+	left: 1.5%;
+	top: 25%;
+	
+
+}
+.b
+{
+	background: url(e.jpg);
+	position: absolute;
+	width: 12%;
+	height: 10%;
+	top: 25%;
+	left: 34%;
+	border-radius: 5px;
+}
+.b1
+{
+	background: url(e.jpg);
+	position: absolute;
+	width: 20%;
+	height: 10%;
+	top: 50%;
+	left: 40.4%;
+	border-radius: 5px;
+}
+.im{
+	width: 20%;
+	height: 30%;
+	position: absolute;
+	left: 77%;
+	top: 70%;
+}
+.im1{
+	width: 25%;
+	height: 45%;
+	position: absolute;
+	left: -0.5%;
+	top: 17%;
+
+}
+
+.im2{
+	width: 10%;
+	height: 19%;
+	position: absolute;
+	left: 20%;
+	top: 74%;
+
+}
+.im3{
+	width: 25%;
+	height: 58%;
+	position: absolute;
+	left: 64%;
+	top: 21%;
+
+}
+.im5{
+	width: 13%;
+	height: 21%;
+	position: absolute;
+	left: 80%;
+	top: 58%;
+
+}
+.im6{
+	width: 12%;
+	height: 15%;
+	position: absolute;
+	left: 45%;
+	top: 28%;
+
+}
+.b2
+{
+position: absolute;
+width: 25%;
+height: 20%;
+color: white;
+top:48%;
+}
+
+  .bot{
+    width: 43%; 
+    height: 55%; 
+    color: #8B008B;
+    font-size: 30px;
+    position: absolute;
+    top:45%;
+    background: url(fondo1.jpg);
+    left: 30%;
+    font-family: fuente2;
+  
+  }
+ 
+  .bot1
+{
+  background: url(e.jpg);
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  top: 25%;
+  left: 49%;
+  border-radius: 5px;
+  font-family: fuente;
+  color: black;
+  font-size: 40px;
+  
+}
+  .bot2
+{
+  background: url(e.jpg);
+  position: absolute;
+  width: 9%;
+  height: 9%;
+  top: 95%;
+  left: 62%;
+  font-family: fuente;
+  color: black;
+  font-size: 26px;
+  border-radius: 5px;
+  
+}
+ .bot3
+{
+  position: relative;
+  width: 74%;
+  height: 18%;
+  left: 11%;
+  margin-top: 20%;
+  font-family: font;
+  background:url(fp.jpg);
+  font-size: 20px;
+  font-color:white;
+  
+  
+}
+.p1{
+	font-family: fuente2;
+	font-size: 25px;
+	background-color: white;
+	font-color:black;
+	width: 26%;
+	height: 48%;
+	position: absolute;
+	left: 3%;
+	top: 20%;
+}
+.p2{
+	font-family: fuente2;
+	font-size: 25px;
+	background-color: white;
+	font-color:black;
+	width: 26%;
+	height: 48%;
+	position: absolute;
+	left: 36.5%;
+	top: 20%;
+}
+.p3{
+	font-family: fuente2;
+	font-size: 25px;
+	background-color: white;
+	font-color:black;
+	width: 26%;
+	height: 48%;
+	position: absolute;
+	left: 70%;
+	top: 20%;
+}
+.p4{
+	font-family: fuente2;
+	font-size: 25px;
+	background-color: white;
+	font-color:black;
+	width: 26%;
+	height: 48%;
+	position: absolute;
+	left: 3%;
+	top: 75%;
+}
+.p5{
+	font-family: fuente2;
+	font-size: 25px;
+	background-color: white;
+	font-color:black;
+	width: 26%;
+	height: 48%;
+	position: absolute;
+	left: 36.5%;
+	top: 75%;
+}
+.p6{
+	font-family: fuente2;
+	font-size: 25px;
+	background-color: white;
+	font-color:black;
+	width: 26%;
+	height: 48%;
+	position: absolute;
+	left: 70%;
+	top: 75%;
+}
+.p7{
+	font-family: fuente2;
+	font-size: 25px;
+	background-color: white;
+	font-color:black;
+	width: 26%;
+	height: 48%;
+	position: absolute;
+	left: 3%;
+	top:130%;
+}
+.p8{
+	font-family: fuente2;
+	font-size: 25px;
+	background-color: white;
+	font-color:black;
+	width: 26%;
+	height: 48%;
+	position: absolute;
+	left: 36.5%;
+	top: 130%;
+}
+.re{
+	font-family: fuente2;
+	font-size: 25px;
+	background-color: white;
+	font-color:black;
+	width: 25%;
+	height: 48%;
+	position: absolute;
+	left: 70%;
+	top: 130%;
+}
+h2{
+	position: relative;
+	left: 5%;
+}
+h4{
+	left: 2%;
+	top: -7%;
+	color: #8B008B;
+	position: relative;
+}
+p{
+	position: relative;
+	top: -11%;
+	left: 2%;
+}
+.ip2{
+	position: absolute;
+	top: 68%;
+	left: 65%;
+	width: 30%;
+	height: 28%;
+}
+.ip3{
+	position: absolute;
+	top: 5%;
+	left: 80%;
+	width: 15%;
+	height: 15%;
+}
+.ip4{
+	position: absolute;
+	top: 70%;
+	left: 65%;
+	width: 28%;
+	height: 25%;
+}
+.ip5{
+	position: absolute;
+	top: 15%;
+	left: 75%;
+	width: 15%;
+	height: 15%;
+}
+.ip6{
+	position: absolute;
+	top: 78%;
+	left: 73%;
+	width: 27%;
+	height: 24%;
+}
+.ip7{
+	position: absolute;
+	top: 15%;
+	left: 75%;
+	width: 15%;
+	height: 15%;
+}
+.ip8{
+	position: absolute;
+	top: 70%;
+	left: 60%;
+	width: 30%;
+	height: 27%;
+}
+.ip9{
+	position: absolute;
+	top: 45%;
+	left: 75%;
+	width: 25%;
+	height: 25%;
+}
+.ip10{
+	position: absolute;
+	top: 14%;
+	left: 50%;
+	width: 27%;
+	height: 25%;
+}
+.ip11{
+	position: absolute;
+	top: 55%;
+	left: 75%;
+	width: 25%;
+	height: 25%;
+}
+.ip12{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	width: 23%;
+	height: 23%;
+}
+.ip13{
+	position: absolute;
+	top: 15%;
+	left: 65%;
+	width: 28%;
+	height: 24%;
+}
+.ip14{
+	position: absolute;
+	top: 65%;
+	left: 65%;
+	width: 30%;
+	height: 30%;
+}
+.ip15{
+	position: absolute;
+	top: 23%;
+	left: 65%;
+	width: 15%;
+	height: 15%;
+}
+.ip16{
+	position: absolute;
+	top: 45%;
+	left: 65%;
+	width: 15%;
+	height: 15%;
+}.ip17{
+	position: absolute;
+	top: 65%;
+	left: 65%;
+	width: 15%;
+	height: 15%;
+}
+.ip18{
+	position: absolute;
+	top: 85%;
+	left: 65%;
+	width: 15%;
+	height: 15%;
+}
+.ip19{
+	position: absolute;
+	top: 15%;
+	left: 75%;
+	width: 23%;
+	height: 23%;
+}
+.ip20{
+	position: absolute;
+	top: 73%;
+	left: 68%;
+	width: 26%;
+	height: 26%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONOCIMIENTO MILLONARIO</title>
+	<link rel="stylesheet" type="text/css" href="hojaestilos.css">
+</head>
+<body class="fondo">
+<div class="f1"><font class="l">C O N O C I M I E N T O &nbsp; M I L L O N A R I O</font></div>
+<form name=form action="preguntastest.html"><button class="b"><font class="l2">JUGAR</font></button></form>
+<div id="mostrarocultar" class="bot"></div>
+<input type="button" onclick="mostrar();" value="INSTRUCCIONES" class="bot1"></font>
+<input type="button" onclick="ocultar();" value="ocultar" class="bot2">
+<img src="libro.png" class="im2">
+<img src="banco.png" class="im1">
+<img src="image.png" class="im3">
+<img src="money.png" class="im5">
+<script>
+    function mostrar() {
+      document.getElementById('mostrarocultar').style.display="block";
+      document.getElementById('mostrarocultar').innerHTML="&nbsp;¡&nbsp;HOLA BIENVENIDO A CONOCIMIENTO MILLONARIO&nbsp;! A CONTINUACIÓN VERAS LOS PASOS PARA JUGAR:<br> 1. DALE CLIC AL BOTON 'JUGAR'<br>2. LEE LA PREGUNTA Y SELECCIONA LA RESPUESTA QUE CONSIDERES CORRECTA<br>3. CUANDO RESPONDAS LAS 8 PREGUNTAS DALE CLIC AL BOTON 'COMPROBAR'<br> TEN EN CUENTA QUE SON 8 PREGUNTAS Y PARA GANAR DEBES TENER LAS 8 RESPUESTAS CORRECTAS";
+      
+       
+    }
+    function ocultar() {
+      document.getElementById('mostrarocultar').style.display="none";
+    }
+</script>
+
+</body>
+</html>

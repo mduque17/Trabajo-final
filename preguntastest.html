@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>CM: T E S T</title>
+<link rel="stylesheet" type="text/css" href="hojaestilos.css">
+</head>
+<script>
+function resultado() {
+var r1, r2, r3, r4, r5, r6, r7, r8, rfinal;
+ 
+<!-- 1 pregunta -->
+
+if (document.getElementById('r11').checked==true) {r1=1; }
+if (r1==1) {document.querySelectorAll('.pregunta1')[0].style.color='#00FF00'}
+else {r1=0}
+<!-- 2 pregunta -->
+if (document.getElementById('r22').checked==true) {r2=1}
+if (r2==1) {document.querySelectorAll('.pregunta2')[2].style.color='#00FF00'}
+else {r2=0}
+<!-- 3 pregunta -->
+if (document.getElementById('r32').checked==true) {r3=1}
+if (r3==1) {document.querySelectorAll('.pregunta3')[1].style.color='#00FF00'}
+else {r3=0}
+<!-- 4 pregunta -->
+if (document.getElementById('r44').checked==true) {r4=1}
+if (r4==1) {document.querySelectorAll('.pregunta4')[3].style.color='#00FF00'}
+else {r4=0}
+<!-- 5 pregunta -->
+if (document.getElementById('r51').checked==true) {r5=1}
+if (r5==1) {document.querySelectorAll('.pregunta5')[0].style.color='#00FF00'}
+else {r5=0}
+<!-- 6 pregunta -->
+if (document.getElementById('r62').checked==true) {r6=1}
+if (r6==1) {document.querySelectorAll('.pregunta6')[1].style.color='#00FF00'}
+else {r6=0}
+<!-- 7 pregunta -->
+if (document.getElementById('r72').checked==true) {r7=1}
+if (r7==1) {document.querySelectorAll('.pregunta7')[1].style.color='#00FF00'}
+else {r7=0}
+<!-- 8 pregunta -->
+if (document.getElementById('r84').checked==true) {r8=1}
+if (r8==1) {document.querySelectorAll('.pregunta8')[3].style.color='#00FF00'}
+else {r8=0}
+ 
+rfinal=r1+r2+r3+r4+r5+r6+r7+r8;
+document.getElementById('resultado').innerHTML="Aciertos: "+rfinal;
+if (rfinal==8) {
+document.getElementById('resultadoF').innerHTML="USTED HA SIDO EL GANADOR DE 10 MILLONES DE PESOS";
+
+}
+else{
+  document.getElementById('resultadoF').innerHTML="NO HAS GANADO, VUELVE A INTENTARLO";
+
+}
+
+rs=confirm("CLIC EN ACEPTAR PARA OBTENER TU RESULTADO");
+if (rs==false) {document.forms[0].reset();location.reload()}
+}
+</script>
+</head>
+<body class="fondo1">
+
+<div class="f1"><font class="lp2"><a href="Conocimientomillonario.html"><button class="boti">Volver</button></a>CONOCIMIENTO MILLONARIO: T E S T</font></div><br><br>
+
+<form style="font:normal 16px sans-serif">
+<div class="p1">
+<h4> ¿De qué país forma parte Hawaii?</h4> 
+<p class="pregunta1"><input type="radio" name="pregunta1" id="r11"> A. Estados Unidos</p>
+<p class="pregunta1"><input type="radio" name="pregunta1" id="r12"> B. Colombia</p>
+<p class="pregunta1"><input type="radio" name="pregunta1" id="r13"> C. Australia</p>
+<p class="pregunta1"><input type="radio" name="pregunta1" id="r14"> D. Brasil</p>
+<img src="m.png" class="ip2"><img src="l.png" class="ip3">
+</div>
+ 
+<div class="p2">
+<h4>¿Cuál es el océano más grande del mundo?</h4>
+<p class="pregunta2"><input type="radio" name="pregunta2" id="r20"> A. El Atlántico</p>
+<p class="pregunta2"><input type="radio" name="pregunta2" id="r21"> B. El Índico </p>
+<p class="pregunta2"><input type="radio" name="pregunta2" id="r22"> C. El Pacífico</p>
+<p class="pregunta2"><input type="radio" name="pregunta2" id="r23"> D. El Ártico</p>
+<img src="n.png" class="ip4"><img src="o.png" class="ip5">
+</div>
+
+<div class="p5">
+<h4>¿Cuándo acabó la II Guerra Mundial?</h4>
+<p class="pregunta3"><input type="radio" name="pregunta3" id="r31"> A. 2018</p>
+<p class="pregunta3"><input type="radio" name="pregunta3" id="r32"> B. 1945</p>
+<p class="pregunta3"><input type="radio" name="pregunta3" id="r33"> C. 1914</p>
+<p class="pregunta3"><input type="radio" name="pregunta3" id="r34"> D. 1934</p>
+<img src="t.png" class="ip10"><img src="u.png" class="ip11"><img src="v.png" class="ip12">
+</div>
+
+<div class="p4"> 
+<h4>¿En qué año fue el descubrimiento de América?</h4>
+<p class="pregunta4"><input type="radio" name="pregunta4" id="r41"> A. 1514</p>
+<p class="pregunta4"><input type="radio" name="pregunta4" id="r42"> B. 1912</p>
+<p class="pregunta4"><input type="radio" name="pregunta4" id="r43"> C. 1500</p>
+<p class="pregunta4"><input type="radio" name="pregunta4" id="r44"> D. 1492</p>
+<img src="r.png" class="ip9"><img src="s.png" class="ip8">
+</div>
+
+<div class="p3">
+<h4>¿Quién escribió "Cien años de soledad"?</h4>
+<p class="pregunta5"><input type="radio" name="pregunta5" id="r51"> A. Gabriel García Márquez</p>
+<p class="pregunta5"><input type="radio" name="pregunta5" id="r52"> B. Homero</p>
+<p class="pregunta5"><input type="radio" name="pregunta5" id="r53"> C. William Shakespeare</p>
+<p class="pregunta5"><input type="radio" name="pregunta5" id="r54"> D. Platón</p>
+<img src="p.png" class="ip6"><img src="q.png" class="ip7">
+</div>
+
+<div class="p8">
+<h4>¿Cómo se llama el estadio de fútbol del Real Madrid?</h4>
+<p class="pregunta6"><input type="radio" name="pregunta6" id="r61"> A. Atanasio Girardot</p>
+<p class="pregunta6"><input type="radio" name="pregunta6" id="r62"> B. Santiago Bernabeu</p>
+<p class="pregunta6"><input type="radio" name="pregunta6" id="r63"> C. Camp Nou </p>
+<p class="pregunta6"><input type="radio" name="pregunta6" id="r64"> D. La Bombonera</p>
+<img src="club.png" class="ip19"><img src="z1.png" class="ip20">
+</div>
+
+<div class="p7">
+<h4>¿Qué animal produce el sonido más fuerte generado por un ser vivo?</h4>
+<p class="pregunta7"><input type="radio" name="pregunta7" id="r71"> A. El Elefante</p>
+<p class="pregunta7"><input type="radio" name="pregunta7" id="r72"> B. La Ballena</p>
+<p class="pregunta7"><input type="radio" name="pregunta7" id="r73"> C. El Perro</p>
+<p class="pregunta7"><input type="radio" name="pregunta7" id="r74"> D. El León</p>
+<img src="y.png" class="ip15"><img src="y1.png" class="ip16"><img src="y2.png" class="ip17">
+<img src="y3.png" class="ip18">
+</div>
+
+<div class="p6">
+<h4>¿Cada cuántos años se realizan los Juegos Olímpicos?</h4>
+<p class="pregunta8"><input type="radio" name="pregunta8" id="r81"> A. Cada año</p>
+<p class="pregunta8"><input type="radio" name="pregunta8" id="r82"> B. Cada mes</p>
+<p class="pregunta8"><input type="radio" name="pregunta8" id="r83"> C. Cada 2 años</p>
+<p class="pregunta8"><input type="radio" name="pregunta8" id="r84"> D. Cada 4 años</p>
+<img src="w.png" class="ip14"><img src="x.png" class="ip13">
+</div>
+
+<div class="re"><h2 id="resultado">Aciertos: 0
+<h2 id="resultadoF">Resultado Final:</h2></h2>
+<p><input type="button" class="bot3" value="C O M P R O B A R " onclick="resultado()"/></p>
+</div>
+
+</form>
+</body>
+</html>
+
+
